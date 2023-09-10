@@ -29,25 +29,9 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Daniel, I am {" "}
-					<Link
-						target="_blank"
-						href=""
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						LINKKI
-					</Link>
-
+					Hello. My name is Daniel.
 					<br />
-					and working on{" "}
-					<Link
-						target="_blank"
-						href=""
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						LINKKI2
-					</Link>{" "}
-					at night.
+					Welcome to my portfolio website.
 				</h2>
 			</div>
 		</div>
