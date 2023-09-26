@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link";
 import React from "react";
-import { useState } from "react";
 import Particles from "./components/particles";
 
 const navigation = [
