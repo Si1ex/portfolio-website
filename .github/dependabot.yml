@@ -5,8 +5,10 @@
 
 version: 2
 updates:
-  - package-ecosystem: npm   # Replace with the package manager you are using (e.g., pip, bundler, etc.)
-    directory: "/"          # Replace with the path to the directory containing your dependencies
+  - package-ecosystem: npm
+    directory: "/"
     schedule:
-      interval: "daily"     # Adjust the update frequency (e.g., "weekly")
-
+      interval: "daily"
+    open-pull-requests-limit: 10
+    automerge:
+      enabled: true
