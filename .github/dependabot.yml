@@ -10,5 +10,4 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
-    automerge:
-      enabled: true
+    merge_strategy: merge-automatically # Enables automatic merging
